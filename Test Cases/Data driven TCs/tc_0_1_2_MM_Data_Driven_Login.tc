@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tc_0_1_2_MM_Data_Driven_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa2550c3-b056-4531-b8fa-a016874aee4c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a511a69f-c6f8-4499-8074-2fbf1e61dce5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7293133c-a14e-4320-a0a8-d3a1334691c4</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

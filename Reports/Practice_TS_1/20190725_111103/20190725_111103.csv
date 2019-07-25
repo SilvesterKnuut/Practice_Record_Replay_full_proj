@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Practice_TS_1,Firefox 68.0,,,2019-07-25 11:11:08,2019-07-25 11:12:08,1m - 0.247s,INCOMPLETE
+,,,,,,,
+Test Cases/tc_0_0_1_RR_ASA_quality_academy_attend,Firefox 68.0,,,2019-07-25 11:11:08,2019-07-25 11:11:18,9.766s,PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-07-25 11:11:08,2019-07-25 11:11:12,3.820s,PASSED
+maximizeWindow(),Firefox 68.0,,,2019-07-25 11:11:12,2019-07-25 11:11:12,0.021s,PASSED
+"navigateToUrl(""https://www.asaquality.ee/"")",Firefox 68.0,,,2019-07-25 11:11:12,2019-07-25 11:11:13,1.312s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Avaleht - ASA Quality Services/button_EST""))",Firefox 68.0,,,2019-07-25 11:11:13,2019-07-25 11:11:14,0.310s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Avaleht - ASA Quality Services/a_ENG""))",Firefox 68.0,,,2019-07-25 11:11:14,2019-07-25 11:11:15,1.196s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_About Us - ASA Quality/a_Academy""))",Firefox 68.0,,,2019-07-25 11:11:15,2019-07-25 11:11:16,1.105s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/button_Attend""))",Firefox 68.0,,,2019-07-25 11:11:16,2019-07-25 11:11:16,0.272s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/input_Error on form submit_btn btn-primary w-100 my-0""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-07-25 11:11:16,2019-07-25 11:11:17,0.263s,PASSED
+"waitForElementAttributeValue(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/div_First and last name""), ""class"", ""form-group has-error"", 2)",Firefox 68.0,,,2019-07-25 11:11:17,2019-07-25 11:11:17,0.058s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/button_close""))",Firefox 68.0,,,2019-07-25 11:11:17,2019-07-25 11:11:17,0.233s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-07-25 11:11:17,2019-07-25 11:11:18,0.920s,PASSED
+,,,,,,,
+Test Cases/tc_0_1_1_MM_Katalon_Demo_Kura_Login,Firefox 68.0,,,2019-07-25 11:11:18,2019-07-25 11:11:24,6.164s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Firefox 68.0,,,2019-07-25 11:11:18,2019-07-25 11:11:22,4.057s,PASSED
+maximizeWindow(),Firefox 68.0,,,2019-07-25 11:11:22,2019-07-25 11:11:22,0.011s,PASSED
+"click(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 68.0,,,2019-07-25 11:11:22,2019-07-25 11:11:22,0.388s,PASSED
+"waitForElementPresent(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""), 2)",Firefox 68.0,,,2019-07-25 11:11:22,2019-07-25 11:11:22,0.028s,PASSED
+"setText(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 68.0,,,2019-07-25 11:11:22,2019-07-25 11:11:23,0.062s,PASSED
+"setText(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Firefox 68.0,,,2019-07-25 11:11:23,2019-07-25 11:11:23,0.046s,PASSED
+"click(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 68.0,,,2019-07-25 11:11:23,2019-07-25 11:11:23,0.425s,PASSED
+"verifyTextPresent(""Make Appointment"", false, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-07-25 11:11:23,2019-07-25 11:11:23,0.121s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-07-25 11:11:23,2019-07-25 11:11:24,0.788s,PASSED
+,,,,,,,
+Test Cases/tc_0_2_1_SM_Alibris_Book_Stoore,Firefox 68.0,,,2019-07-25 11:11:24,2019-07-25 11:12:08,44.094s,PASSED
+"openBrowser(""https://www.alibris.com/"")",Firefox 68.0,,,2019-07-25 11:11:24,2019-07-25 11:11:30,5.414s,PASSED
+maximizeWindow(),Firefox 68.0,,,2019-07-25 11:11:30,2019-07-25 11:11:30,0.010s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_Alibris - Buy new and used books textbooks music and movies/input_Search by Title Author or ISBN_keyword""), 2)",Firefox 68.0,,,2019-07-25 11:11:30,2019-07-25 11:11:30,0.031s,PASSED
+"setText(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_Alibris - Buy new and used books textbooks music and movies/input_Search by Title Author or ISBN_keyword""), ""Steam engine"")",Firefox 68.0,,,2019-07-25 11:11:30,2019-07-25 11:11:30,0.051s,PASSED
+"click(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_Alibris - Buy new and used books textbooks music and movies/input_Select Book Format Menu_hs""))",Firefox 68.0,,,2019-07-25 11:11:30,2019-07-25 11:11:30,0.767s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_steam engine - Alibris/a_Building Simple Model Steam Engines""), 3)",Firefox 68.0,,,2019-07-25 11:11:30,2019-07-25 11:11:30,0.033s,PASSED
+"click(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_steam engine - Alibris/button_Add to Cart""), OPTIONAL)",Firefox 68.0,,,2019-07-25 11:11:30,2019-07-25 11:12:01,30.524s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_steam engine - Alibris/h2_Items Added to Cart""), 2, OPTIONAL)",Firefox 68.0,,,2019-07-25 11:12:01,2019-07-25 11:12:03,2.085s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_steam engine - Alibris/h2_Your cart summary""), 2, OPTIONAL)",Firefox 68.0,,,2019-07-25 11:12:03,2019-07-25 11:12:05,2.081s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/tc_0_2_1_SM_OR/Page_steam engine - Alibris/h3_Building Simple Model Steam""), 2, OPTIONAL)",Firefox 68.0,,,2019-07-25 11:12:05,2019-07-25 11:12:07,2.083s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-07-25 11:12:07,2019-07-25 11:12:08,0.855s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Practice_TS_2,Chrome 75.0.3770.142,,,2019-07-25 12:03:56,2019-07-25 12:04:57,1m - 0.749s,INCOMPLETE
+,,,,,,,
+Test Cases/tc_0_0_1_RR_ASA_quality_academy_attend,Chrome 75.0.3770.142,,,2019-07-25 12:03:57,2019-07-25 12:04:26,29.068s,FAILED
+"openBrowser("""")",Chrome 75.0.3770.142,,,2019-07-25 12:03:57,2019-07-25 12:04:04,7.028s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-25 12:04:04,2019-07-25 12:04:08,4.138s,PASSED
+"navigateToUrl(""https://www.asaquality.ee/"")",Chrome 75.0.3770.142,,,2019-07-25 12:04:08,2019-07-25 12:04:23,14.208s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Avaleht - ASA Quality Services/button_EST""))",Chrome 75.0.3770.142,,,2019-07-25 12:04:23,2019-07-25 12:04:23,0.166s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Avaleht - ASA Quality Services/a_ENG""))",Chrome 75.0.3770.142,,,2019-07-25 12:04:23,2019-07-25 12:04:24,1.263s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_About Us - ASA Quality/a_Academy""))",Chrome 75.0.3770.142,,,2019-07-25 12:04:24,2019-07-25 12:04:25,1.242s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/button_Attend""))",Chrome 75.0.3770.142,,,2019-07-25 12:04:25,2019-07-25 12:04:26,0.153s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/input_Error on form submit_btn btn-primary w-100 my-0""), STOP_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-07-25 12:04:26,2019-07-25 12:04:26,0.406s,FAILED
+,,,,,,,
+Test Cases/tc_0_1_1_MM_Katalon_Demo_Kura_Login,Chrome 75.0.3770.142,,,2019-07-25 12:04:26,2019-07-25 12:04:57,31.284s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 75.0.3770.142,,,2019-07-25 12:04:26,2019-07-25 12:04:51,24.535s,PASSED
+maximizeWindow(),Chrome 75.0.3770.142,,,2019-07-25 12:04:51,2019-07-25 12:04:55,4.122s,PASSED
+"click(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 75.0.3770.142,,,2019-07-25 12:04:55,2019-07-25 12:04:56,0.784s,PASSED
+"waitForElementPresent(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""), 2)",Chrome 75.0.3770.142,,,2019-07-25 12:04:56,2019-07-25 12:04:56,0.059s,PASSED
+"setText(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 75.0.3770.142,,,2019-07-25 12:04:56,2019-07-25 12:04:56,0.147s,PASSED
+"setText(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 75.0.3770.142,,,2019-07-25 12:04:56,2019-07-25 12:04:56,0.148s,PASSED
+"click(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 75.0.3770.142,,,2019-07-25 12:04:56,2019-07-25 12:04:57,0.450s,PASSED
+"verifyTextPresent(""Make Appointment"", false, CONTINUE_ON_FAILURE)",Chrome 75.0.3770.142,,,2019-07-25 12:04:57,2019-07-25 12:04:57,0.090s,PASSED
+closeBrowser(),Chrome 75.0.3770.142,,,2019-07-25 12:04:57,2019-07-25 12:04:57,0.612s,PASSED

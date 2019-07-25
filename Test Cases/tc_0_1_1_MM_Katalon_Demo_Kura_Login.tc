@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tc_0_1_1_MM_Katalon_Demo_Kura_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>987b6c41-70ce-4117-b672-802eb591a3da</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1d5cd54-4b66-43a2-bbec-9aa237a93908</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a0a04af-1f3c-4ae3-88d9-3c5f9102bd08</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

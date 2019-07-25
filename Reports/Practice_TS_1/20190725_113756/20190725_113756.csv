@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Practice_TS_1,Firefox 68.0,,,2019-07-25 11:38:00,2019-07-25 11:38:16,15.939s,INCOMPLETE
+,,,,,,,
+Test Cases/tc_0_0_1_RR_ASA_quality_academy_attend,Firefox 68.0,,,2019-07-25 11:38:00,2019-07-25 11:38:10,9.780s,PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-07-25 11:38:01,2019-07-25 11:38:05,3.734s,PASSED
+maximizeWindow(),Firefox 68.0,,,2019-07-25 11:38:05,2019-07-25 11:38:05,0.033s,PASSED
+"navigateToUrl(""https://www.asaquality.ee/"")",Firefox 68.0,,,2019-07-25 11:38:05,2019-07-25 11:38:06,1.349s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Avaleht - ASA Quality Services/button_EST""))",Firefox 68.0,,,2019-07-25 11:38:06,2019-07-25 11:38:06,0.314s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Avaleht - ASA Quality Services/a_ENG""))",Firefox 68.0,,,2019-07-25 11:38:06,2019-07-25 11:38:07,1.201s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_About Us - ASA Quality/a_Academy""))",Firefox 68.0,,,2019-07-25 11:38:07,2019-07-25 11:38:09,1.103s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/button_Attend""))",Firefox 68.0,,,2019-07-25 11:38:09,2019-07-25 11:38:09,0.257s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/input_Error on form submit_btn btn-primary w-100 my-0""), STOP_ON_FAILURE)",Firefox 68.0,,,2019-07-25 11:38:09,2019-07-25 11:38:09,0.259s,PASSED
+"waitForElementAttributeValue(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/div_First and last name""), ""class"", ""form-group has-error"", 2)",Firefox 68.0,,,2019-07-25 11:38:09,2019-07-25 11:38:09,0.059s,PASSED
+"click(findTestObject(""tc_0_0_1_RR_OR/Page_Academy - ASA Quality/button_close""))",Firefox 68.0,,,2019-07-25 11:38:09,2019-07-25 11:38:09,0.237s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-07-25 11:38:09,2019-07-25 11:38:10,0.910s,PASSED
+,,,,,,,
+Test Cases/tc_0_1_1_MM_Katalon_Demo_Kura_Login,Firefox 68.0,,,2019-07-25 11:38:10,2019-07-25 11:38:16,5.931s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Firefox 68.0,,,2019-07-25 11:38:11,2019-07-25 11:38:14,3.917s,PASSED
+maximizeWindow(),Firefox 68.0,,,2019-07-25 11:38:14,2019-07-25 11:38:14,0.012s,PASSED
+"click(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 68.0,,,2019-07-25 11:38:14,2019-07-25 11:38:15,0.382s,PASSED
+"waitForElementPresent(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""), 2)",Firefox 68.0,,,2019-07-25 11:38:15,2019-07-25 11:38:15,0.025s,PASSED
+"setText(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 68.0,,,2019-07-25 11:38:15,2019-07-25 11:38:15,0.055s,PASSED
+"setText(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Firefox 68.0,,,2019-07-25 11:38:15,2019-07-25 11:38:15,0.043s,PASSED
+"click(findTestObject(""tc_0_1_1_MM_OR/Page_CURA Healthcare Service/button_Login""))",Firefox 68.0,,,2019-07-25 11:38:15,2019-07-25 11:38:15,0.356s,PASSED
+"verifyTextPresent(""Make Appointment"", false, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-07-25 11:38:15,2019-07-25 11:38:15,0.110s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-07-25 11:38:15,2019-07-25 11:38:16,0.792s,PASSED
